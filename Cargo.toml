@@ -1,0 +1,9 @@
+[package]
+name = "vwap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+byteorder = "1.5.0"
+flate2 = "1.0.35"
+polars = { version = "0.45.1", features = ["parquet"] }
